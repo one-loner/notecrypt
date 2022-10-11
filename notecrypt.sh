@@ -73,10 +73,10 @@ case $1 in
   *)
     echo "notecrypt init            - Инициализировать криптохранилище."
     echo "notecrypt insert [name]   - Добавить криптозаметку."
-    echo "notecrypt list  [name]    - Посмотреть список криптозаметок."
+    echo "notecrypt list            - Посмотреть список криптозаметок."
     echo "notecrypt modify [name]   - изменить криптозаметку."
     echo "notecrypt readnote [name] - расшифровать и прочитать криптозаметку."
     echo "notecrypt del [name]      - Удалить криптозаметку."
-    echo "Важный момент notecrypt использует nano для создания и редактирования заметок. После необходимо нажать CTRL+O Enter CTRL+X. Ни в коем случае не изменяйте имя временного файла."
+    echo "Важный момент: notecrypt использует nano для создания и редактирования заметок. После необходимо нажать CTRL+O Enter CTRL+X. Ни в коем случае не изменяйте имя временного файла."
     ;;
 esac
