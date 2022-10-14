@@ -63,7 +63,7 @@ case $1 in
   del)
     echo "Вы уверены, что хотите удалить $2 ?"
     read a
-    if [ "$answer" != "${answer#[Yy]}" ] ;then
+    if [ "$a" != "${a#[Yy]}" ] ;then
         srm ~/.notecrypt/$2
     else
         echo "Файл не удалён."
